@@ -1,0 +1,30 @@
+{
+  "name": "@simuf0/roman-numerals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simuf0/roman-numerals.git"
+  },
+  "keywords": [
+    "converter"
+  ],
+  "author": "Simon Cabos <cabos.simon.dev@gmail.com> (https://github.com/simuf0)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simuf0/roman-numerals/issues"
+  },
+  "homepage": "https://github.com/simuf0/roman-numerals#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.13.0",
+    "@typescript-eslint/parser": "^5.13.0",
+    "eslint": "^8.10.0",
+    "typescript": "^4.6.2"
+  }
+}
