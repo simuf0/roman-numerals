@@ -53,18 +53,3 @@ class RomanNumberConverter {
 
 export const romanNumerals = new RomanNumberConverter();
 export default romanNumerals;
-
-console.log(romanNumerals.romanToNumber('')); // 0
-console.log(romanNumerals.romanToNumber('IX')); // 9
-console.log(romanNumerals.romanToNumber('XXXIX')); // 39
-console.log(romanNumerals.romanToNumber('DCCLXXXIX')); // 789
-console.log(romanNumerals.romanToNumber('CCVII')); // 207
-console.log(romanNumerals.romanToNumber('MDCLXVI')); // 1666
-console.log(romanNumerals.romanToNumber('MMCDXXI')); // 2421
-
-console.log(romanNumerals.numberToRoman(12)); // XII
-console.log(romanNumerals.numberToRoman(19)); // XIX
-console.log(romanNumerals.numberToRoman(141)); // CXLI
-console.log(romanNumerals.numberToRoman(1900)); // MCM
-console.log(romanNumerals.numberToRoman(2020)); // MMXX
-console.log(romanNumerals.numberToRoman(5123)); // MMMMMCXXIII

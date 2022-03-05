@@ -27,7 +27,7 @@ const NumberConversion = {
 };
 class RomanNumberConverter {
     romanToNumber(str) {
-        return Array.from(str)
+        return Array.from(str.toUpperCase())
             .map(char => { var _a; return (_a = RomanConversion[char]) !== null && _a !== void 0 ? _a : 0; })
             .reduce((sum, item, index, arr) => index > 0 && arr[index - 1] < item
             ? sum + item - arr[index - 1] - arr[index - 1]
@@ -47,16 +47,3 @@ class RomanNumberConverter {
 }
 exports.romanNumerals = new RomanNumberConverter();
 exports.default = exports.romanNumerals;
-console.log(exports.romanNumerals.romanToNumber(''));
-console.log(exports.romanNumerals.romanToNumber('IX'));
-console.log(exports.romanNumerals.romanToNumber('XXXIX'));
-console.log(exports.romanNumerals.romanToNumber('DCCLXXXIX'));
-console.log(exports.romanNumerals.romanToNumber('CCVII'));
-console.log(exports.romanNumerals.romanToNumber('MDCLXVI'));
-console.log(exports.romanNumerals.romanToNumber('MMCDXXI'));
-console.log(exports.romanNumerals.numberToRoman(12));
-console.log(exports.romanNumerals.numberToRoman(19));
-console.log(exports.romanNumerals.numberToRoman(141));
-console.log(exports.romanNumerals.numberToRoman(1900));
-console.log(exports.romanNumerals.numberToRoman(2020));
-console.log(exports.romanNumerals.numberToRoman(5123));
