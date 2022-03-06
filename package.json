@@ -1,30 +1,35 @@
 {
   "name": "@simuf0/roman-numerals",
-  "version": "1.0.1",
-  "description": "",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "version": "1.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "exit 0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/simuf0/roman-numerals.git"
-  },
-  "keywords": [
-    "converter"
-  ],
-  "author": "Simon Cabos <cabos.simon.dev@gmail.com> (https://github.com/simuf0)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/simuf0/roman-numerals/issues"
-  },
-  "homepage": "https://github.com/simuf0/roman-numerals#readme",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.13.0",
     "@typescript-eslint/parser": "^5.13.0",
     "eslint": "^8.10.0",
     "typescript": "^4.6.2"
-  }
+  },
+  "description": "Simple roman numerals converter",
+  "keywords": [
+    "convert",
+    "converter",
+    "number",
+    "numeral",
+    "roman",
+    "string"
+  ],
+  "author": "Simon Cabos <cabos.simon.dev@gmail.com> (https://github.com/simuf0)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simuf0/roman-numerals.git"
+  },
+  "bugs": {
+    "url": "https://github.com/simuf0/roman-numerals/issues"
+  },
+  "homepage": "https://github.com/simuf0/roman-numerals#readme"  
 }
