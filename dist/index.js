@@ -27,7 +27,6 @@ class RomanNumeralConverter {
     numberToRoman(num) {
         let str = '';
         for (const [key, value] of RomanConversion) {
-            console.log(value);
             const symbolCount = Math.floor(num / value);
             if (symbolCount > 0) {
                 str += key.repeat(symbolCount);
